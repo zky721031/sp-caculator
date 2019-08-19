@@ -20,14 +20,14 @@
         <li @click="append(6)">6</li>
         <li @click="minus">-</li>
       </ul>
-      <li>
+      <ul>
         <li @click="append(1)">1</li>
         <li @click="append(2)">2</li>
         <li @click="append(3)">3</li>
         <li @click="add">+</li>
-      </li>
+      </ul>
       <ul>
-        <li @click="back">bk</li>
+        <li @click="back"></li>
         <li @click="append(0)">0</li>
         <li @click="dot">.</li>
         <li @click="equal">=</li>
